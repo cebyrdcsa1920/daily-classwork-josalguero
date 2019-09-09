@@ -8,10 +8,22 @@ public class Car
     private int numPassengers;
     private final double mpg;
 
+    /**
+     * Drives the car the given distance. Substracts gas from the tank.
+     *
+     * @param distance The distance driven in miles
+     */
+
     public void drive (double distance)
     {
         amountOfGas -= distance / mpg;
     }
+
+    /**
+     * gets the amount of gas in the tank
+     *
+     * @return amounts of gas
+     */
 
     public double getAmountOfGas()
     {
@@ -22,7 +34,7 @@ public class Car
     {
         model= "mustang";
         color = Color.YELLOW;
-        tank = 100.7;
+        amountOfGas = 100.7;
         numPassengers = 2;
         mpg = 15.0;
     }
