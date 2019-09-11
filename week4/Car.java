@@ -7,6 +7,7 @@ public class Car
     private double amountOfGas;
     private int numPassengers;
     private final double mpg;
+    private double addGas
 
     /**
      * Drives the car the given distance. Substracts gas from the tank.
@@ -29,7 +30,15 @@ public class Car
     {
         return amountOfGas;
     }
-
+    /**
+     * fills up the tank gas
+     *
+     * @param amount gas to add tank
+     */
+    public void fillTank (double amount)
+    {
+        amountOfGas += amount;
+    }
     public Car()
     {
         model= "mustang";
