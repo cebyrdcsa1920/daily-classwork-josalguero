@@ -6,15 +6,15 @@ public class Shoes
     private Color secondaryColor;
     private double size;
 
-    public shoes()
+    public Shoes()
     {
         brand = "Vans";
         primaryColor = Color.BLACK;
-        secondarycolor = Color.WHITE;
+        secondaryColor = Color.WHITE;
         size = 8.5;
     }
-    public string toString()
+    public String toString()
     {
-        return "this is are my shoes"
+        return "this is are my shoes";
     }
 }

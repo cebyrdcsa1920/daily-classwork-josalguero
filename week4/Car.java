@@ -7,7 +7,7 @@ public class Car
     private double amountOfGas;
     private int numPassengers;
     private final double mpg;
-    private double addGas
+
 
     /**
      * Drives the car the given distance. Substracts gas from the tank.
@@ -49,6 +49,6 @@ public class Car
     }
     public String toString()
     {
-        "this is my mustang"
+        return "this is my mustang";
     }
 }

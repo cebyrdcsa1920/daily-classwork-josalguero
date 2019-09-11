@@ -4,8 +4,17 @@ public class CarRunner
     {
         Car myMustang = new Car();
         //System.out.println(myMustang);
-        muMustang.drive(5.5);
+        myMustang.drive(5.5);
         System.out.println(myMustang.getAmountOfGas());
+        myMustang.drive(100.5);
+        System.out.println(myMustang.getAmountOfGas());
+        myMustang.fillTank(5);
+        System.out.println(myMustang.getAmountOfGas());
+
+        Car myMinivan = new Car();
+
+
     }
+
 
 }

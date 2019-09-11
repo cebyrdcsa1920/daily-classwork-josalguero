@@ -2,7 +2,7 @@ public class HouseRunner
 {
     public static void main (String [] args)
     {
-        house myHouse = new house ();
+        House myHouse = new House ();
         System.out.println(myHouse);
     }
 }
