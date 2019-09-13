@@ -47,6 +47,14 @@ public class Car
         numPassengers = 2;
         mpg = 15.0;
     }
+    public car (String model, Color color, double amountOfGas, int numPassangers, double mpg)
+    {
+    this.model = model;
+    this.color = color
+    this.amountOfGas = amountOfGas;
+    this.numPassangers = numPassangers;
+    this.mpg = mpg;
+    }
     public String toString()
     {
         return "this is my mustang";
